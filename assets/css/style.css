@@ -1,0 +1,113 @@
+#about {
+    padding: 100px 18%;
+    display: flex;
+}
+
+.about--img img {
+    opacity: 0.75;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.about--img {
+    width: calc(100%/2);
+}
+
+.about--des {
+    width: calc(100%/2);
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.about--des h1, .about--des h3 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.about--des h3 {
+    margin-top: 28px;
+}
+
+.about--des p {
+    margin-top: 20px;
+}
+
+.about--des .about--des--second-para {
+    opacity: 0.7;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#label {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.carrer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.carrer-store, .carrer-office {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carrer-store:hover, .carrer-office:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.job-section {
+    padding: 15px;
+    background-color: #f46330;
+    color: white;
+}
+
+.job-section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.job-section ul {
+    margin-bottom: 20px;
+}
+
+.job-section ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.view-all-btn {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    color: #f46330;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.view-all-btn:hover {
+    background-color: #f2f2f2;
+    color: #f46330;
+}
