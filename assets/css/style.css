@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ */
+ @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Spartan',sans-serif;
+    /* font-family: 'Spartan',sans-serif; */
+    font-family: 'Helvetica Neue', sans-serif;
+    text-wrap: pretty;
 }
 
 h1 {
@@ -1260,6 +1264,9 @@ footer .copyright {
 .about--des h1, .about--des h3 {
     text-align: center;
     letter-spacing: 5px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .about--des h3 {
@@ -1268,6 +1275,7 @@ footer .copyright {
 
 .about--des p {
     margin-top: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 .about--des .about--des--second-para {
@@ -1290,6 +1298,9 @@ footer .copyright {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .carrer-store, .carrer-office {
@@ -1348,4 +1359,116 @@ footer .copyright {
 .view-all-btn:hover {
     background-color: #f2f2f2;
     color: #133E87;
+}
+
+/* career-store css */
+/* use prefix career-store */
+
+.career-store-list-recruitment {
+    padding: 100px 18%;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.career-store-recruitment {
+    float: left;
+    width: 33%;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+    margin-top: 5px;
+}
+
+.career-store-recruitment .img {
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.career-store-recruitment .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.career-store-recruitment .content {
+    width: 100%;
+    padding: 0px;
+}
+
+.career-store-recruitment .content h5 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.career-store-date-dervice {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+.career-store-date-dervice img, .career-store-date-dervice .time, .career-store-date-dervice .date {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.career-store-recruitment .content .btn-style-3 {
+    margin-top: 15px;
+}
+
+.btn-style-3 {
+    font-weight: 500;
+    color: #fff;
+    background: #ddc3af;
+    border-radius: 0;
+    z-index: 10;
+    padding: 10px 30px;
+    font-size: 16px;
+    position: relative;
+    display: block;
+    width: 155px;
+    margin-top: 30px;
+    transition: 0.5s;
+
+    border: none;
+    transition: all ease;
+
+    cursor: pointer;
+}
+
+.btn-style-3:hover {
+    scale: 1.1;
+}
+
+.career-store-details li {
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.career-store-required li {
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.career-store-recruitment-details {
+    padding: 100px 18%;
+}
+
+.career-store-recruitment-details li {
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.career-store-recruitment-details h3 {
+    margin-top: 10px;
+}
+
+.career-store-contact span {
+    display: block;
+    margin-top: 10px;
 }

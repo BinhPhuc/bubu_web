@@ -7,17 +7,19 @@
     <title>About us and Carrer </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet">
 </head>
 <body>
     <div id="main">
         <div class="">
-            <div id="label">About us</div>
+            <div id="label">
+                <h1>Về chúng tôi</h1>
+            </div>
             <div id="about">
                 <div class="about--img">
-                    <img src="./assets/images/about_us_img.jpg" alt="">
+                    <img src="./assets/images/about_us_img_1.jpg" alt="">
                 </div>
                 <div class="about--des">
                     <h3>Brand Formation History</h3>
@@ -57,11 +59,11 @@
         </div>
 
         <div class="">
-            <div id="label">Carrer page</div>
+            <div id="label"><h1>Career page</h1></div>
             <div class="carrer">
                 <div class="carrer-store">
                     <div class="image-section">
-                        <img src="./assets/images/career_store.png" alt="Team Image" class="team-image">
+                        <img src="./assets/images/img1.png" alt="Team Image" class="team-image">
                     </div>
                     <div class="job-section">
                         <h2>Khối cửa hàng</h2>
@@ -70,12 +72,12 @@
                             <li>Giám sát ca</li>
                             <li>Barista</li>
                         </ul>
-                        <button class="view-all-btn">Xem tất cả công việc khối cửa hàng</button>
+                        <button onclick="handleCareerStore()" class="view-all-btn">Xem tất cả công việc khối cửa hàng</button>
                     </div>
                 </div>
                 <div class="carrer-office">
                     <div class="image-section">
-                        <img src="./assets/images/carrer_office.png" alt="Team Image" class="team-image">
+                        <img src="./assets/images/img2.png" alt="Team Image" class="team-image">
                     </div>
                     <div class="job-section">
                         <h2>Khối văn phòng hàng</h2>
@@ -84,11 +86,12 @@
                             <li>Giám sát ca</li>
                             <li>Barista</li>
                         </ul>
-                        <button class="view-all-btn">Xem tất cả công việc khối cửa hàng</button>
+                        <button onclick="handleCareerOffice()" class="view-all-btn">Xem tất cả công việc khối cửa hàng</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
